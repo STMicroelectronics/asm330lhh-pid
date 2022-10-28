@@ -30,7 +30,7 @@ This directory contains the ASM330LHH component drivers.
 # Update history
 
 ::: {.collapse}
-<input type="checkbox" id="collapse-section1" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section1" aria-hidden="true">
 <label for="collapse-section1" aria-hidden="true">V1.0.0 / 18-June-2021</label>
 <div>			
 
@@ -39,6 +39,18 @@ This directory contains the ASM330LHH component drivers.
 ### First release
 
 - First official release [ref. DS v3.0]
+
+##
+
+</div>
+
+<input type="checkbox" id="collapse-section2" checked aria-hidden="true">
+<label for="collapse-section2" aria-hidden="true">V2.0.0 / 28-October-2022</label>
+<div>
+
+## Main changes
+
+- Aligned to Datasheet Rev4 (06-May-2020)
 
 ##
 
