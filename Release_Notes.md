@@ -56,13 +56,25 @@ This directory contains the ASM330LHH component drivers.
 
 </div>
 
-<input type="checkbox" id="collapse-section3" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section3" aria-hidden="true">
 <label for="collapse-section3" aria-hidden="true">V2.1.0 / 01-June-2023</label>
 <div>
 
 ## Main changes
 
 - Add __weak directive to read/write registers routines
+
+##
+
+</div>
+
+<input type="checkbox" id="collapse-section4" checked aria-hidden="true">
+<label for="collapse-section4" aria-hidden="true">V3.0.0 / 19-Mar-2024</label>
+<div>
+
+## Main changes
+
+- Add "const" to ctx arg for all APIs
 
 ##
 
