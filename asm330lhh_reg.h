@@ -808,59 +808,6 @@ typedef struct
 #define ASM330LHH_FIFO_DATA_OUT_Z_H            0x7EU
 
 /**
-  * @defgroup ASM330LHH_Register_Union
-  * @brief    This union group all the registers that has a bit-field
-  *           description.
-  *           This union is useful but not need by the driver.
-  *
-  *           REMOVING this union you are compliant with:
-  *           MISRA-C 2012 [Rule 19.2] -> " Union are not allowed "
-  *
-  * @{
-  *
-  */
-typedef union
-{
-  asm330lhh_pin_ctrl_t                      pin_ctrl;
-  asm330lhh_fifo_ctrl1_t                    fifo_ctrl1;
-  asm330lhh_fifo_ctrl2_t                    fifo_ctrl2;
-  asm330lhh_fifo_ctrl3_t                    fifo_ctrl3;
-  asm330lhh_fifo_ctrl4_t                    fifo_ctrl4;
-  asm330lhh_counter_bdr_reg1_t              counter_bdr_reg1;
-  asm330lhh_counter_bdr_reg2_t              counter_bdr_reg2;
-  asm330lhh_int1_ctrl_t                     int1_ctrl;
-  asm330lhh_int2_ctrl_t                     int2_ctrl;
-  asm330lhh_ctrl1_xl_t                      ctrl1_xl;
-  asm330lhh_ctrl2_g_t                       ctrl2_g;
-  asm330lhh_ctrl3_c_t                       ctrl3_c;
-  asm330lhh_ctrl4_c_t                       ctrl4_c;
-  asm330lhh_ctrl5_c_t                       ctrl5_c;
-  asm330lhh_ctrl6_c_t                       ctrl6_c;
-  asm330lhh_ctrl7_g_t                       ctrl7_g;
-  asm330lhh_ctrl8_xl_t                      ctrl8_xl;
-  asm330lhh_ctrl9_xl_t                      ctrl9_xl;
-  asm330lhh_ctrl10_c_t                      ctrl10_c;
-  asm330lhh_all_int_src_t                   all_int_src;
-  asm330lhh_wake_up_src_t                   wake_up_src;
-  asm330lhh_d6d_src_t                       d6d_src;
-  asm330lhh_status_reg_t                    status_reg;
-  asm330lhh_fifo_status1_t                  fifo_status1;
-  asm330lhh_fifo_status2_t                  fifo_status2;
-  asm330lhh_int_cfg0_t                      int_cfg0;
-  asm330lhh_int_cfg1_t                      int_cfg1;
-  asm330lhh_ths_6d_t                        ths_6d;
-  asm330lhh_wake_up_ths_t                   wake_up_ths;
-  asm330lhh_wake_up_dur_t                   wake_up_dur;
-  asm330lhh_free_fall_t                     free_fall;
-  asm330lhh_md1_cfg_t                       md1_cfg;
-  asm330lhh_md2_cfg_t                       md2_cfg;
-  asm330lhh_internal_freq_fine_t            internal_freq_fine;
-  asm330lhh_fifo_data_out_tag_t             fifo_data_out_tag;
-  bitwise_t                                  bitwise;
-  uint8_t                                    byte;
-} asm330lhh_reg_t;
-
-/**
   * @}
   *
   */
