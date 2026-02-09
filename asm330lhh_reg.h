@@ -1087,8 +1087,8 @@ int32_t asm330lhh_xl_filter_lp2_get(const stmdev_ctx_t *ctx, uint8_t *val);
 int32_t asm330lhh_gy_filter_lp1_set(const stmdev_ctx_t *ctx, uint8_t val);
 int32_t asm330lhh_gy_filter_lp1_get(const stmdev_ctx_t *ctx, uint8_t *val);
 
-int32_t asm330lhh_filter_settling_mask_set(const stmdev_ctx_t *ctx, uint8_t val);
-int32_t asm330lhh_filter_settling_mask_get(const stmdev_ctx_t *ctx, uint8_t *val);
+int32_t asm330lhh_drdy_mask_set(const stmdev_ctx_t *ctx, uint8_t val);
+int32_t asm330lhh_drdy_mask_get(const stmdev_ctx_t *ctx, uint8_t *val);
 
 typedef enum
 {
