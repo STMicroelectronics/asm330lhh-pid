@@ -30,7 +30,33 @@ This directory contains the ASM330LHH component drivers.
 # Update history
 
 ::: {.collapse}
-<input type="checkbox" id="collapse-section8" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section9" checked aria-hidden="true">
+<label for="collapse-section9" aria-hidden="true">V3.5.0 / 18-Mar-2026</label>
+<div>
+
+## Main changes
+
+- Fix some MISRA issues
+- Add parameter names to stmdev callbacks to fix a MISRA issue
+- Fix hp_slope_xl_en_t LP_ODR_DIV_4 hex value
+- Remove outdated incorrect comment
+- Fix xl_hp_path_on_out_set/get API and hp_slope_xl_en_t enum
+- Change switch cases to use hex values
+- Re-order update history with most updated on top
+- Fix style
+- Fix den_xl_g_t values
+- Fix odr_t_batch_t values
+- Remove register union
+- Fix den_mark_axis_x/z_set_get APIs
+- Rename filter_settling_mask_set/get in drdy_mask_set/get
+- Fix odr_cal_reg_set/get API, change type uint8 to int8
+- Change type of xl_usr_offset_x/y/z_set/get APIs uint8 to int8
+
+##
+
+</div>
+
+<input type="checkbox" id="collapse-section8" aria-hidden="true">
 <label for="collapse-section8" aria-hidden="true">V3.4.0 / 07-Oct-2025</label>
 <div>
 
@@ -42,6 +68,7 @@ This directory contains the ASM330LHH component drivers.
 ##
 
 </div>
+
 <input type="checkbox" id="collapse-section7" aria-hidden="true">
 <label for="collapse-section7" aria-hidden="true">V3.3.0 / 07-Jul-2025</label>
 <div>
