@@ -119,6 +119,7 @@ typedef int32_t (*stmdev_read_ptr)(
   uint8_t reg,
   uint8_t *buf,
   uint16_t len);
+
 typedef void (*stmdev_mdelay_ptr)(uint32_t millisec);
 
 typedef struct
